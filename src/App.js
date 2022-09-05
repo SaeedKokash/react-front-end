@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Person from './components/Person';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="header" data-testid="appName"> Identity Form App </h1>
+      <Person />
+      <p className="footer">Identity Form App &copy;All Rights Reserved | Saeed Kokash </p>  
     </div>
   );
 }
