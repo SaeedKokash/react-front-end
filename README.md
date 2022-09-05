@@ -1,2 +1,2 @@
 # react-front-end
-a server for testing 
+a front end application for testing using jest
