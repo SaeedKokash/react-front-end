@@ -1,1 +1,2 @@
-An app for testing
+# react-front-end
+a front end application for testing using jest
